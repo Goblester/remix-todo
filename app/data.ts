@@ -3,11 +3,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 import { matchSorter } from "match-sorter";
-// @ts-ignore - no types, but it's a tiny function
+//@ts-ignore
 import sortBy from "sort-by";
 import invariant from "tiny-invariant";
 
-type ContactMutation = {
+export type ContactMutation = {
   id?: string;
   first?: string;
   last?: string;
